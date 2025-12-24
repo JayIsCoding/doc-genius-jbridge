@@ -1,8 +1,12 @@
-google.generativeai==0.8.3
+# JBridge Invoice Processor Dependencies
+google-generativeai>=0.8.3
+PyPDF2>=3.0.0
+python-dotenv>=1.0.0
+streamlit>=1.28.0
 
+# Original DocGenius dependencies (optional, for PDFChat)
 tiktoken
 faiss-cpu
 langchain
-PyPDF2
-python-dotenv
-streamlit
+langchain-community
+langchain-openai
